@@ -1,0 +1,21 @@
+{
+  "name": "scamproof-usdt-backend",
+  "description": "USDT詐騙自救舉證系統後端API",
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "cd server && npm start",
+    "healthcheckPath": "/api/health"
+  },
+  "env": {
+    "JWT_SECRET": {
+      "description": "JWT加密密鑰",
+      "value": "ScamProof_JWT_Secret_Key_2025_Change_This_In_Production"
+    },
+    "NODE_ENV": {
+      "description": "運行環境",
+      "value": "production"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "scamproof-usdt-system",
+  "version": "1.0.0",
+  "description": "USDT詐騙自救舉證系統",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "cd server && npm start",
+    "dev": "cd server && npm run dev",
+    "build": "echo 'Build completed'",
+    "deploy": "railway deploy"
+  },
+  "keywords": ["usdt", "blockchain", "scam-recovery"],
+  "author": "ScamProof Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
